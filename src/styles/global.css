@@ -9,7 +9,7 @@ a:hover { opacity: .65; }
 .site-header { position: sticky; top: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 24px; background: #fff; }
 .brand { display: flex; align-items: center; gap: 7px; font-size: 16px; }
 .brand:hover { opacity: 1; color: #8C8C8C; }
-.brand-mark { width: 24px; height: 24px; background: #e3e3e3; display: block; }
+.brand-mark { width: 24px; height: 24px; object-fit: contain; display: block; }
 .telegram-link { width: 24px; height: 24px; display: block; background: #F8F8F8; }
 .telegram-link:hover { opacity: 1; }
 .telegram-icon { width: 24px; height: 24px; display: block; }
