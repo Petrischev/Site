@@ -170,7 +170,7 @@ const remote = (group: keyof typeof imageSources, name: string) => pngUrl(imageS
 </section>
 </div>)}{slug === 'rassvetay' && (<div class="project-content rassvetay-project">
 <section class="case-intro rassvetay-intro">
-  <div class="rassvetay-logo-box"><img class="rassvetay-logo" src={imageUrl(imageSources.rassvetay.base,imageSources.rassvetay.files.logo)} alt="Логотип Расцветай" /></div>
+  <div class="rassvetay-logo-box"><img class="rassvetay-logo" src={`${base}images/main/Rascvetai_logo_case.png`} alt="Логотип Расцветай"/></div>
   <h1>Что я делал в Расцветай</h1>
   <div class="rassvetay-intro-text">
     <p>Группа компаний «Расцветай» — девелоперская компания из&nbspНовосибирска, специализирующаяся на&nbspстроительстве жилой и&nbspкоммерческой недвижимости. Компания входит в&nbspчисло крупнейших застройщиков Новосибирской области, а&nbspтакже реализует проекты в&nbspнескольких регионах России.</p>
@@ -267,7 +267,7 @@ const remote = (group: keyof typeof imageSources, name: string) => pngUrl(imageS
 .rassvetay-project{gap:0;margin-top:0}
 .rassvetay-intro{gap:40px}
 .rassvetay-logo-box{width:110px;height:110px;background:#f8f8f8;display:flex;align-items:center;justify-content:center}
-.rassvetay-logo{width:62px;height:79px;max-width:none;max-height:none;object-fit:contain}
+.rassvetay-logo{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}
 .rassvetay-intro h1{font-size:40px;line-height:normal}
 .rassvetay-intro-text{display:flex;flex-direction:column;gap:32px}
 .rassvetay-intro-text p{font-size:24px;line-height:32px;margin:0}
