@@ -3,6 +3,8 @@ import '../styles/global.css';
 
 const base = import.meta.env.BASE_URL;
 const assetPathPrefix = 'https://www.figma.com/api/mcp/asset/a8e180fc-e4ab-4dbc-a349-a53d9bd19670';
+const avatar = `${base}images/main/avatar.png`;
+const avatarMini = `${base}images/main/avatar%20mini.png`;
 
 const projects = [
   {
@@ -55,7 +57,7 @@ const projects = [
   <body>
     <header class="site-header">
       <a class="brand" href={base} aria-label="На главную">
-        <span class="brand-mark"></span>
+        <img class="brand-avatar" src={avatarMini} alt="" aria-hidden="true" />
         <span>Alexandr Petrischev</span>
       </a>
       <a class="telegram-link" href="https://t.me/Aleksandr_Petrischev" target="_blank" rel="noreferrer" aria-label="Открыть Telegram">
@@ -65,7 +67,7 @@ const projects = [
 
     <main class="container">
       <section class="hero section">
-        <div class="hero-shape"></div>
+        <img class="hero-avatar" src={avatar} alt="Александр Петрищев" />
         <h1>Александр Петрищев</h1>
         <div class="facts">
           <div class="fact-row strong">
